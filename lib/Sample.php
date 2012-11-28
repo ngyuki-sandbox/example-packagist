@@ -1,6 +1,6 @@
 <?php
 namespace ngyuki\Example;
 
-class Hoge
+class Sample
 {
 }

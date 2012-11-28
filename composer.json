@@ -14,6 +14,9 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "require-dev": {
+        "ngyuki/phake": "1.0.*"
+    },
     "autoload": {
         "psr-0": {
             "ngyuki\\Example": "lib/"
@@ -21,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "1.0.x-dev"
+            "dev-master": "1.0.x-dev"
         }
     }
 }

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ngyuki/example-packagist": "1.0.*"
+    }
+}

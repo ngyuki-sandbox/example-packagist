@@ -1,30 +1,30 @@
 {
     "name": "ngyuki/example-packagist",
+    "description": "example packagist for ngyuki",
     "type": "library",
-    "description": "",
-    "keywords": [],
+    "keywords": [ "example" ],
     "homepage": "https://github.com/ngyuki/example-packagist",
     "license": "MIT",
     "authors": [
-        {
-            "name": "tsyk goto",
-            "email": "ngyuki.ts@gmail.com"
-        }
+        { "name": "ngyuki", "email": "ngyuki.ts@gmail.com" }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.2"
     },
     "require-dev": {
         "ngyuki/phake": "1.0.*"
     },
     "autoload": {
         "psr-0": {
-            "ngyuki\\Example": "lib/"
+            "ngyuki\\ExamplePackagist": "src/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    }
+    },
+    "bin": [
+        "ngyuki-example-packagist"
+    ]
 }
